@@ -28,6 +28,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: siteName,
   description: siteDescription,
+  outDir: 'dist',
   ignoreDeadLinks: true,
   head: [
     ['meta', {
